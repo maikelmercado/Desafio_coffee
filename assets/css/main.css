@@ -1,0 +1,261 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar__button--white {
+  font-family: "PT Mono", monospace;
+}
+
+.navbar__button--green {
+  font-family: "PT Mono", monospace;
+}
+
+.main__information--numbs {
+  font-family: "PT Mono", monospace;
+}
+
+.article__title {
+  font-family: "PT Mono", monospace;
+}
+
+.section__description--title {
+  font-family: "PT Mono", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar__button {
+  display: flex;
+  margin-left: 50%;
+}
+
+.navbar__button--white {
+  background-color: #fff;
+  color: #828080;
+  padding: 5px 20px;
+  border: 1px solid #828080;
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.navbar__button--white:hover {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.navbar__button--green {
+  background-color: #42c768;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #42c768;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.navbar__button--green:hover {
+  background-color: #93c5a2;
+  color: #484545;
+  padding: 10px 20px;
+  border: 2px solid #93c5a2;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar__logo {
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.navbar__img {
+  height: 50px;
+  width: auto;
+}
+.navbar ul {
+  color: #828080;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar ul li {
+  margin-left: 40px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar__bottons {
+  display: flex;
+  margin-left: 60%;
+}
+.navbar__bottons--white, .navbar__bottons--green {
+  margin-left: 10px;
+}
+
+.main {
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.main__img {
+  margin-right: 20px;
+}
+
+.main__information--section {
+  position: absolute;
+  width: 470px;
+  height: 90px;
+  right: 566px;
+  top: 350px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main__information {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-top: 11px;
+  margin-left: 20px;
+}
+
+.main__information--numbs {
+  font-size: 30px;
+  margin: 0;
+}
+
+.main__information--p {
+  margin: 5px 0 0;
+  font-size: 9px;
+  width: 50%;
+}
+
+.main__arrow {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 330px;
+  right: 510px;
+  background-color: #E4572E;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.main__arrow::before {
+  content: "￫";
+  padding-left: 30px;
+  padding-top: 40px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.main__square--yellow {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  top: 351px;
+  right: 495px;
+  background-color: #F1DD7B;
+  display: inline-block;
+}
+
+.main__maps--img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.main__maps {
+  position: absolute;
+  margin-left: 29%;
+  top: 470px;
+  z-index: 1;
+}
+
+.main__square--blue {
+  position: absolute;
+  width: 380px;
+  height: 174px;
+  top: 441px;
+  right: 650px;
+  background-color: #3C91EC;
+  display: inline-block;
+}
+
+.main__coffe--img {
+  width: 100%;
+  height: 120px;
+  max-width: 70px;
+  background-position: center;
+  background-size: cover;
+}
+
+.main__coffe {
+  position: absolute;
+  left: 760px;
+  z-index: 1;
+  top: 441px;
+}
+
+.main__cofe2--img {
+  width: 100%;
+  height: 300px;
+  max-width: 500px;
+}
+
+.main__cofe2 {
+  position: absolute;
+  left: 800px;
+  top: 440px;
+}
+
+.article {
+  position: absolute;
+  top: 15%;
+  margin-left: 70%;
+  width: 25%;
+}
+
+.article__title {
+  font-size: 70px;
+}
+
+.article__text {
+  line-height: 0.05rem;
+  font-size: 20px;
+}
+
+.section__description {
+  width: 30%;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+.section__description--title {
+  font-size: 30px;
+}
+
+.section__descritption--text {
+  width: 55%;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #e6e6e6;
+  padding: 1em;
+  text-align: center;
+  margin-top: 210px;
+}/*# sourceMappingURL=main.css.map */

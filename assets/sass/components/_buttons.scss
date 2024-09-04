@@ -1,0 +1,41 @@
+
+
+.navbar__button{
+  display: flex;
+  margin-left: 50%;
+}
+
+
+.navbar__button--white {
+  background-color: $tertiary-color;
+  color: $primary-color;
+  padding: 5px 20px;
+  border: 1px solid $primary-color; 
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 10px;
+  &:hover {
+      background-color: $tertiary-color;
+      color: $dark-color;
+      padding: 10px 20px;
+      border: 2px solid $dark-color; 
+      cursor: pointer;
+  }
+}
+
+
+.navbar__button--green{
+  background-color:  $secondary-color;
+  color: $tertiary-color;
+  padding: 10px 20px;
+  border: 1px solid $secondary-color; 
+  cursor: pointer;
+  margin-left: 10px;
+  &:hover {
+      background-color: $secondary-color--light;
+      color: $text-color;
+      padding: 10px 20px;
+      border: 2px solid $secondary-color--light; 
+      cursor: pointer;
+  }
+}
